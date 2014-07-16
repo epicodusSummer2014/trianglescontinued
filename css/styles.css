@@ -1,0 +1,62 @@
+
+body{
+  text-align:center;
+  max-width:800px;
+  margin: 0 auto;
+  background: url('http://www.bhmpics.com/walls/triangles_abstraction_background-wide.jpg');
+  color:white;
+}
+
+form * {
+text-align:center;
+margin-left:50px;
+}
+
+.a,.b,.c {
+  display:inline;
+
+}
+.form-control {
+  width: 10%;
+}
+
+
+h1, h3 {
+  font-weight: bold;
+
+}
+
+
+
+.isoc {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 199px solid transparent;
+
+  border-top: 199px solid #f00;
+  display:none;
+}
+
+.equi {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+
+  border-left: 120px solid green;
+  display:none;
+}
+
+.scal {
+  width: 0;
+  height: 0;
+  border-top: 80px solid transparent;
+  border-bottom: 120px solid transparent;
+
+  border-right:50px solid blue;
+  display:none;
+}
+
+
+
